@@ -1,0 +1,82 @@
+Pokémon TCG Match Tracker - Easy Setup Guide
+
+Welcome! This simple guide will help you set up your Pokémon TCG Match Tracker on your computer. No technical experience needed - just follow these steps:
+Step 1: Install Python
+
+    Go to python.org
+
+    Click the yellow "Download Python" button
+
+    Run the downloaded installer file
+
+    IMPORTANT: Check the box that says "Add Python to PATH" during installation
+
+    Click "Install Now" and wait for completion
+
+Step 2: Download the Project
+
+    Click here to download the project files (replace with your actual repo link)
+
+    Save the ZIP file to your computer (Documents folder is good)
+
+    Right-click the downloaded ZIP file and select "Extract All"
+
+    Remember where you extracted the folder (this is your "project folder")
+
+Step 3: Open the Command Window
+
+    Windows:
+
+        Press Win + R keys
+
+        Type cmd and press Enter
+
+    Mac:
+
+        Press Command + Space
+
+        Type Terminal and press Enter
+
+Step 4: Install Required Tools
+
+In the command window, type each line below and press Enter after each:
+bash
+
+pip install -r requirements.txt
+
+Step 5: Start the Tracker
+
+In the same command window, type:
+bash
+
+python app.py
+
+Step 6: Open the Application
+
+    Open your web browser (Chrome, Firefox, Edge, etc.)
+
+    Type this exactly in the address bar:
+    http://localhost:5000
+
+    Press Enter
+
+You should now see your Pokémon TCG Match Tracker!
+To Use Daily
+
+    Open the command window (Step 3)
+
+    Navigate to your project folder using:
+    cd path/to/your/project/folder
+    (Tip: Drag your folder into the command window to auto-fill the path)
+
+    Repeat Steps 5 and 6
+
+Troubleshooting Tips:
+
+    If pip install fails: Try pip3 install -r requirements.txt instead
+
+    If python app.py fails: Try python3 app.py instead
+
+    Always keep the command window open while using the tracker
+
+    Close and reopen the command window if you make changes to the files
