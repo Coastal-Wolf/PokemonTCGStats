@@ -15,9 +15,9 @@ Step 1: Install Python
 
 Step 2: Download the Project
 
-    Click here to download the project files (replace with your actual repo link)
+    download the project files by going to the green "code" tab, then clicking "Download Zip".
 
-    Save the ZIP file to your computer (Documents folder is good)
+    Save the ZIP file to your desktop folder
 
     Right-click the downloaded ZIP file and select "Extract All"
 
@@ -49,6 +49,14 @@ Step 5: Start the Tracker
 In the same command window, type:
 bash
 
+cd Desktop
+
+bash
+
+cd PokemonTCGStats
+
+bash
+
 python app.py
 
 Step 6: Open the Application
@@ -56,7 +64,7 @@ Step 6: Open the Application
     Open your web browser (Chrome, Firefox, Edge, etc.)
 
     Type this exactly in the address bar:
-    http://localhost:5000
+    http://localhost:5000 (or an adderess prompted in the backend CMD)
 
     Press Enter
 
@@ -80,3 +88,11 @@ Troubleshooting Tips:
     Always keep the command window open while using the tracker
 
     Close and reopen the command window if you make changes to the files
+
+## Current Known Issues
+
+Auto-save currently is not functional, please export your decks to save them
+
+Analytic is not updated in real time, try exporting your deck and stats data, then restart your session and import that data
+
+
