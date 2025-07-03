@@ -1,0 +1,34 @@
+# Pokemon TCG Tracker - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Flask Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Data Processing
+python-dateutil==2.8.2
+
+# Development and Testing
+pytest==7.4.2
+pytest-flask==1.3.0
+
+# Production Server (optional)
+gunicorn==21.2.0
+
+# Logging and Monitoring
+colorlog==6.7.0
+
+# File Handling
+Werkzeug==2.3.7
+
+# Optional: Database support (if you want to switch to SQLite later)
+# SQLAlchemy==2.0.23
+# Flask-SQLAlchemy==3.1.1
+
+# Optional: API Documentation (if you want to add Swagger/OpenAPI)
+# flask-restx==1.2.0
+# marshmallow==3.20.1
+
+# Optional: Enhanced Security (for production)
+# Flask-Limiter==3.5.0
+# Flask-Session==0.5.0
