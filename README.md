@@ -106,4 +106,6 @@ Auto-save currently is not functional, please export your decks to save them
 
 Analytic is not updated in real time, try exporting your deck and stats data, then restart your session and import that data
 
+#How to use
 
+Manually enter game data, the rest is self explanatory. PLEASE READ known issues to prevent data loss.
